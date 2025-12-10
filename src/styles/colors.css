@@ -1,0 +1,27 @@
+/* White and Blue Theme */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-card: #ffffff;
+  --primary-blue: #007bff;
+  --primary-dark: #0056b3;
+  --secondary-blue: #6c757d;
+  --light-blue: #e7f3ff;
+  --success-green: #28a745;
+  --text-primary: #212529;
+  --text-secondary: #495057;
+  --gradient-primary: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  --gradient-secondary: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+}
+
+body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.bms-card {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

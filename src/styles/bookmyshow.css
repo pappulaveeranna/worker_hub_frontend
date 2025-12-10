@@ -1,0 +1,72 @@
+/* White and Blue Theme Override */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff !important;
+  color: #212529 !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card Styles */
+.bms-card {
+  background: #ffffff !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  color: #212529 !important;
+}
+
+/* Button Styles */
+.bms-btn-primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border-radius: 8px !important;
+}
+
+.bms-btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3) !important;
+}
+
+.bms-btn-secondary {
+  background: linear-gradient(135deg, #6c757d 0%, #495057 100%) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.bms-btn-success {
+  background: linear-gradient(135deg, #28a745 0%, #218838 100%) !important;
+  border: none !important;
+  color: white !important;
+}
+
+/* Input Styles */
+.bms-input {
+  background: #ffffff !important;
+  border: 1px solid #ced4da !important;
+  color: #212529 !important;
+  border-radius: 8px !important;
+}
+
+.bms-input:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2) !important;
+  outline: none !important;
+}
+
+/* Text Colors */
+.bms-text-primary { color: #212529 !important; }
+.bms-text-secondary { color: #495057 !important; }
+.bms-text-muted { color: #6c757d !important; }
+
+/* Background Colors */
+.bms-bg-primary { background: #ffffff !important; }
+.bms-bg-secondary { background: #f8f9fa !important; }
+.bms-bg-card { background: #ffffff !important; }
