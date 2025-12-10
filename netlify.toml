@@ -3,6 +3,12 @@
   publish = "build"
 
 [[redirects]]
+  from = "/api/*"
+  to = "https://worker-backend-1-ruzk.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Backend base URL
 const API = axios.create({ 
-  baseURL: process.env.REACT_APP_API_URL || 'https://worker-backend-1-ruzk.onrender.com/api' 
+  baseURL: process.env.REACT_APP_API_URL || '/api' 
 });
 
 // Attach JWT token if present
